@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up · GitHub (Study)</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CDN Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <!-- LEFT SIDE -->
+      <section class="left">
+        <h1>Create your free account</h1>
+        <p>Explore GitHub’s core features for individuals and organizations.</p>
+        <a href="#" class="see">See what's included ↓</a>
+      </section>
+
+      <!-- RIGHT SIDE -->
+      <section class="right">
+        <div class="top-link">
+          Already have an account? <a href="#">Sign in →</a>
+        </div>
+
+        <div class="form-box">
+          <h2>Sign up for GitHub</h2>
+
+          <button class="oauth google">
+            <i class="fa-brands fa-google"></i> Continue with Google
+          </button>
+          <button class="oauth apple">
+            <i class="fa-brands fa-apple"></i> Continue with Apple
+          </button>
+
+          <div class="divider"><span>or</span></div>
+
+          <form>
+            <label>Email*</label>
+            <input type="email" class="error" placeholder="Email" />
+            <p class="error-text">⚠ Email cannot be blank</p>
+
+            <label>Password*</label>
+            <input type="password" placeholder="Password" />
+            <p class="hint">
+              Password should be at least 15 characters OR at least 8 characters
+              including a number and a lowercase letter.
+            </p>
+
+            <label>Username*</label>
+            <input type="text" placeholder="Username" />
+            <p class="hint">
+              Username may only contain alphanumeric characters or single
+              hyphens, and cannot begin or end with a hyphen.
+            </p>
+
+            <label>Your Country/Region*</label>
+            <select>
+              <option>Thailand</option>
+            </select>
+            <p class="hint">
+              For compliance reasons, we're required to collect country
+              information to send you occasional updates and announcements.
+            </p>
+
+            <p class="section-title">Email preferences</p>
+            <div class="checkbox">
+              <input type="checkbox" id="email-pref" />
+              <label for="email-pref" class="checkbox-label">
+                Receive occasional product updates and announcements
+              </label>
+            </div>
+            <button class="submit">Create account →</button>
+          </form>
+
+          <p class="terms">
+            By creating an account, you agree to the
+            <a href="#">Terms of Service</a>. For more information about
+            GitHub's privacy practices, see the
+            <a href="#">GitHub Privacy Statement</a>.
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
